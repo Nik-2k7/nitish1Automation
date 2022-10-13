@@ -10,11 +10,7 @@ Scenario('Login into Crowdstaffing Application-Admin App', ({ I }) => {
     I.click('svg[fill="white"][width="9px"][height="7px"]');
     I.wait(2);
     I.click("//span[contains(text(),'Logout')]"); 
-    I.click("//span[contains(text(),'Logout')]"); 
-    pause();
 });
 
-// Scenario('Logout from Crowdstaffing Application', ({ I }) => {
-//     I.wait(5);
-                                
-// });
+Scenario('Logout from Crowdstaffing Application', ({ I }) => {                             
+});
